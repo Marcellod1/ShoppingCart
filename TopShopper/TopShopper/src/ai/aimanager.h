@@ -4,6 +4,7 @@
 #include <array>
 #include <foundation/PxTransform.h>
 #include <vector>
+#include <string>
 #include <map>
 #include <set>
 #include <tuple>
@@ -14,8 +15,6 @@ class Entity;
 class SpareChange;
 class Cookie;
 class MysteryBag;
-
-
 
 class AIManager {
 public:
@@ -95,25 +94,6 @@ private:
 
 	double _matchTimer = 300; // 5min (300s) match
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif // AIMANAGER_H_
 

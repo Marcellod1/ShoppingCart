@@ -30,7 +30,6 @@ int main() {
 		}
 
 		broker->updateAllSeconds(simTime, fixedDeltaTime, variableDeltaTime, accumulator);
-
 	}
 
 	// if main loop ends, call cleanup
